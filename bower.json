@@ -1,5 +1,5 @@
 {
-  "name": "youtube-player",
+  "name": "youtube-api-player",
   "description": "Youtube player directive for Angular Js",
   "authors": [
     "Rafał Lorenz <vardius@gmail.com>"

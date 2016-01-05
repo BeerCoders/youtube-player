@@ -1,5 +1,5 @@
 {
-  "name": "youtube-player",
+  "name": "youtube-api-player",
   "description": "Youtube player directive for Angular Js",
   "private": false,
   "version": "0.1.14",
