@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+
+<div class="container" ng-controller="MainController as vm">
+    <youtube currentTime="{{vm.video.currentTime}}" width="{{vm.width}}" height="{{vm.height}}" videoid="{{vm.video.videoid}}"></youtube>
+</div>
+<script src="components/angular/angular.js"></script>
+<script src="controllers/MainController.js"></script>
+<script src="app.js"></script>
+<script src="../dist/youtube-player.js"></script>
+</body>
+</html>
